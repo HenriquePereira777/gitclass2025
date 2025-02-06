@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(255, 81, 0);
+    padding: 1rem 0;
+    color: white;
+}
+#cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 10px;
+}
+.busca{
+    position: relative;
+}
+.busca input{
+    width: 70vw;
+    padding: 0.5rem;
+    border-radius: 20rem;
+    box-shadow: 0 2px 5px 0 rgb(0, 0, 0.1);
+    border: none;
+}
+.busca input:focus{
+    outline: none;
+}
+.busca i{
+    position: absolute;
+    right: 0.2rem;
+    top:0.5rem;
+    color: black;
+    font-size: 1rem;
+    
+}
+.icones{
+    color: white;
+    display: flex;
+    gap: 1.5rem;
+    cursor: pointer;
+
+}
+.icones i{
+    font-size: 1.5rem;
+}
+.icones i:hover{
+    color: black;
+}
+.navegacao{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    position: relative;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    transition: color 0.3s;
+    padding: 5px 10px;
+}
+nav ul li a:hover{
+    color: black;
+}
+.navegacao li a:hover{
+    background-color: rgb(226, 53, 0);
+    border-radius: 5px;
+}
